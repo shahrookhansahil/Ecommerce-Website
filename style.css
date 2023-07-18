@@ -23,7 +23,7 @@ nav {
 .search {
   display: flex;
   align-items: center;
-  background-color: gray;
+  background-color: rgb(13, 187, 199);
   padding: 10px 20px;
   border-radius: 10px;
 }
@@ -34,12 +34,12 @@ nav {
 }
 
 .searchInput::placeholder {
-  color: lightgray;
+  color: rgb(67, 23, 23);
 }
 
 .limitedOffer {
   font-size: 20px;
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid rgb(27, 243, 27);
   cursor: pointer;
 }
 
@@ -52,7 +52,7 @@ nav {
 .menuItem {
   margin-right: 50px;
   cursor: pointer;
-  color: lightgray;
+  color: rgb(172, 120, 16);
   font-weight: 400;
 }
 
@@ -129,7 +129,7 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderBg {
-  background-color: #369e62;
+  background-color: #53ccc2;
 }
 .sliderItem:nth-child(2) .sliderBg {
   background-color: rebeccapurple;
@@ -145,7 +145,8 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderPrice {
-  color: #369e62;
+  color: #66be19;
+  font-weight: 400;
 }
 .sliderItem:nth-child(2) .sliderPrice {
   color: white;
@@ -190,7 +191,19 @@ nav {
   width: 50%;
   height: 100px;
 }
+#hd1{
+    font-family: bolder;
+}
 
+#au{
+    font-size: x-large;
+    font-family: bolder;
+}
+.menuItem:hover {
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  font-family: bolder;
+}
 .product {
   height: 100vh;
   background-color: whitesmoke;
